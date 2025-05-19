@@ -50,8 +50,19 @@ dependencies {
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
     implementation(libs.firebase.database)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
-    implementation ("com.google.android.gms:play-services-auth:20.7.0")
+    implementation ("com.google.android.gms:play-services-auth:21.3.0")
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.cloudinary.android)
+    implementation(libs.github.glide)
+    implementation(libs.androidx.constraintlayout.v214)
+    implementation("androidx.navigation:navigation-fragment:2.9.0")
+    implementation("androidx.navigation:navigation-ui:2.9.0")
+    implementation(libs.okhttp)
+    implementation ("com.squareup.okio:okio:3.4.0")
+    implementation (libs.github.glide)
+
+
 }

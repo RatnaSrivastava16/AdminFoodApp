@@ -88,7 +88,7 @@
           android:fontFamily="@font/akaya_telivigala"
           android:text="Name"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="20sp" />
 
       <EditText
           android:id="@+id/NameEditText"
@@ -123,7 +123,7 @@
           android:fontFamily="@font/akaya_telivigala"
           android:text="Address"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="20sp" />
 
       <EditText
           android:id="@+id/AddressEditText"
@@ -159,7 +159,7 @@
           android:fontFamily="@font/akaya_telivigala"
           android:text="Email"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="20sp" />
 
       <EditText
           android:id="@+id/EmailEditText"
@@ -193,7 +193,7 @@
           android:fontFamily="@font/akaya_telivigala"
           android:text="Phone"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="20sp" />
 
       <EditText
           android:id="@+id/PhoneEditText"
@@ -228,7 +228,7 @@
           android:fontFamily="@font/akaya_telivigala"
           android:text="Password"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="20sp" />
 
       <EditText
           android:id="@+id/PasswordEditText"

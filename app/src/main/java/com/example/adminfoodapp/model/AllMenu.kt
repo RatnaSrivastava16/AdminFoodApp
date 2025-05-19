@@ -1,5 +1,10 @@
 package com.example.adminfoodapp.model
 
 data class AllMenu(
-    val  foodName:String?=null
+    var name: String? = null,
+    var description: String? = null,
+    var price: String? = null,
+    var imageUrl: String? = null,
+    var ingredients: String? = null,
+    var id: String? = null
 )

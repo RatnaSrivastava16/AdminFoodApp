@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
+        binding.pendingOrderBtn.setOnClickListener{
+            val intent= Intent(this,PendingOrderActivity::class.java)
+            startActivity(intent)
+        }
         binding.addMenu.setOnClickListener{
             val intent= Intent(this,AddItemActivity::class.java)
             startActivity(intent)
